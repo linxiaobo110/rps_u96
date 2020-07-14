@@ -8,6 +8,8 @@
 
 This project implements the gesture recognition for a common game rock-scissors-paper, including three parts: model training on PC, model compile on Vitis-AI and model calling on Ultra 96. Firstly, a seven layers deep network is trained with tensorflow on PC,  in which the dataset from Google is utilized. Then, the `h5` model generated with `tensorflow 2` is compiled into a `elf` model with Vitis AI docker. The compiled result is able to be run on the edge platform like Ultra96. Finally, a scheme including camera reading, model calling and model validating is implemented with jupyter-notebook on the edge platform.
 
+>  This project is based on PYNQ-DPU, and is compatible with Ultra 96 V2.
+
 ## Files in project
 
 ```bash
